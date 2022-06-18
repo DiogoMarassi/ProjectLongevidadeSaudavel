@@ -1,0 +1,102 @@
+.banner
+{
+    width: 100%;
+}
+
+.caixa1
+{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 250px 0px;
+    box-shadow: inset 0px 4px 8px rgb(0, 0, 0, 0.5);
+}
+
+.seja-bem-vinda
+{
+    font-family: 'Heebo', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.seja-bem-vinda::after
+{   
+    content: '';
+    width: 200px;
+    height: 3px;
+    background-color: white;
+    display: block;
+    margin-left: 36%;
+    margin-top: 3px;
+    margin-bottom: 5px;  
+}
+
+.subtitulo
+{
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    font-size: 15px;    
+}
+
+.ir-para-botao
+{
+    background-color: #a4c639;
+    border: 1px solid #d8ff57;
+    display: inline-block;
+    font-family: 'Heebo', sans-serif;
+    font-size: 18px;
+    color: #210124;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    padding: 8px 16px;
+    text-align: center;
+    width: 184px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.ir-para-botao:hover
+{
+    background-color: #d8ff57;
+    cursor: pointer;
+}
+
+.wpp
+{
+    width: 50px; 
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 679px)
+{
+
+    .seja-bem-vinda
+    {
+        font-size: 25px;
+    }
+
+    .seja-bem-vinda::after
+    {
+        margin-left: 31%;
+        width: 140px;
+        text-align: center;
+    }
+
+    .subtitulo
+    {
+        font-size: 13px;
+    }
+
+    .seja-bem-vinda
+    {
+        margin: 0px 20px;
+    }
+
+    .sombra
+    {
+        box-shadow: inset 0px -4px 8px rgb(0, 0, 0, 0.5);
+    }
+}

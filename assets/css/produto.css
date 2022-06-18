@@ -1,0 +1,167 @@
+
+.caixa1
+{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+    box-shadow: inset 0px 4px 8px rgb(0, 0, 0, 0.5);
+}
+
+.conheca-o
+{
+    font-family: 'Heebo', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.conheca-o::after
+{   
+    content: '';
+    width: 70px;
+    height: 4px;
+    background-color: white;
+    display: block;
+    margin-left: 38%;
+    margin-top: 3px;
+    margin-bottom: 5px;  
+}
+
+.a-pagina-do
+{
+    font-family: 'Heebo', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.a-pagina-do::after
+{   
+    content: '';
+    width: 70px;
+    height: 4px;
+    background-color: white;
+    display: block;
+    margin-left: 41.5%;
+    margin-top: 3px;
+    margin-bottom: 5px;  
+}
+
+.subtitulo
+{
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    font-size: 15px;      
+}
+
+.bloco-caixa2
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.ir-para-botao
+{
+    background-color: #750d37;
+    border: 1px solid #8E2424;
+    display: inline-block;
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    padding: 8px 16px;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    width: 170px;
+    margin-top: 15px;
+    margin-bottom: 60px;
+    font-weight: 500;
+}
+
+.ir-para-botao:hover
+{
+    background-color: #8E2424;
+    cursor: pointer;
+}
+
+.video
+{
+    margin-top: 50px;
+   
+    width: 900px;
+}
+
+@media screen and (max-width: 679px)
+{
+    .seja-bem-vinda
+    {
+        font-size: 25px;
+    }
+
+    .seja-bem-vinda::after
+    {
+        margin-left: 32%;
+    }
+
+    .subtitulo
+    {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .bloco-caixa2
+    {     
+        width: 100%;  
+        height: 430px;
+        flex-direction: column;
+    }
+
+    .video
+    {
+        margin-top: 50px;
+        width: 100vw;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width:771px)  
+{
+    .video
+    {
+        width: 100%;
+    }   
+}
+
+@media screen and (min-width: 771px)
+{
+    .caixa3
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .video
+    {
+        width: 80%;
+    }
+
+    .sombra
+    {
+        box-shadow: inset 0px -4px 8px rgb(0, 0, 0, 0.5);
+    }  
+}
+
+@media screen and (min-width: 1000px)
+{
+    .video
+    {      
+        width: 900px;
+    }   
+}

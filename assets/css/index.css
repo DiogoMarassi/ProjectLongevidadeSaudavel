@@ -1,0 +1,600 @@
+/* PÁGINA INICIAL */
+
+.caixa1
+{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
+    box-shadow: inset 0px 4px 8px rgb(0, 0, 0, 0.5);
+}
+
+.seja-bem-vinda
+{
+    font-family: 'Heebo', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+
+.seja-bem-vinda::after
+{   
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    display: block;
+    margin-left: 36%;
+    margin-top: 3px;
+    margin-bottom: 5px;  
+}
+
+.subtitulo
+{
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    font-size: 15px;    
+}
+
+.saiba-como-botao
+{
+    background-color: #750d37;
+    border: 1px solid #8E2424;
+    display: inline-block;
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    padding: 8px 16px;
+    text-align: center;
+    width: 120px;
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.saiba-como-botao:hover
+{
+    background-color: #8E2424;
+    cursor: pointer;
+}
+
+.caixa2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.bloco-caixa2
+{
+    background-color: #f7f5f7;
+    width: 1100px;
+    display: flex;
+    height: 420px;
+  
+}
+
+.primeiroplano
+{
+    z-index: 3;
+}
+
+.seta
+{
+    position: absolute;
+    width: 230px;
+    left: 40vw;
+    z-index: 1
+}
+
+.imagem-mulher
+{   
+    width: 300px;
+    max-height: 300px;
+    padding: 32px 0px 60px 50px;
+    z-index: 6;  
+}
+
+.texto-bloco2
+{
+    padding: 60px 0px 0px 30px;  
+}
+
+.mas-antes
+{   
+    font-family: 'Heebo', sans-serif;
+    color: #210124;
+    font-size: 43px;
+    font-weight: 800; 
+}
+
+.venha-me
+{   
+    font-family: 'Heebo', sans-serif;
+    color: #210124;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.caixa-pontilhada
+{   
+    border: 6px dashed #ddade0;
+    display: inline-block;
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    padding: 75px 90px;
+    text-align: center;
+    width: 180px;
+    margin-top: 20px;
+    font-weight: 500;
+    position: absolute;     
+}
+
+.texto-caixa-pontilhada
+{    
+    font-size: 24px;
+    width: 180px;
+    color: #210124;
+    font-weight: 600;   
+}
+
+.esconderaparece
+{
+    position: absolute;
+    z-index: 5;
+    width: 380px;
+    height: 193px;
+    top: 460px;     
+}
+
+.mousearea
+{
+    position: absolute;
+    z-index: 5;
+    width: 374px;
+    height: 190px;
+    top: 460px;
+    opacity: 0;   
+}
+
+.barra
+{
+    position: relative;
+    width: 30px;
+    height: 186px;
+    top: 20px;    
+}
+
+.animacaoida
+{
+    transform: translate(380px,0px);
+    transition: 0.6s;   
+}
+
+.animacaovolta
+{
+    transform: translate(0px,0px);
+    transition: 0.6s;
+}
+
+.aparece
+{   
+    z-index: 2;
+    position: relative;
+    bottom: 170px;
+    right: 360px;
+    width: 310px;
+    height: 68px;
+    background-color: #f9ddfb;
+    padding: 53px 17px;
+    border: 6px dashed #ddade0;
+     
+}
+
+.texto-apresentacao
+{
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.como-eu-caixa
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.como-eu
+{
+    font-family: 'Heebo', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    padding-top: 54px;
+    text-transform: uppercase;
+    color: white;
+}
+    
+.como-eu::after
+{
+    content: '';
+    width: 100px;
+    height: 4px;
+    background-color: white;
+    margin-bottom: 5px;
+}
+
+.caixa3
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video
+{
+    margin: 32px 0px;
+    width: 900px;
+}
+
+.flex-caixa
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+.caixa4
+{
+    width: 900px;
+    height: 250px;
+    background-color: #750d37;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px 0px;
+    margin: 35px 20px 60px 18px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);   
+}
+
+.caixa5
+{
+    width: 900px;
+    height: 250px;
+    background-color: #f7f5f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 32px;
+    padding-bottom: 28px;
+    margin: 35px 20px 60px 18px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    
+}
+
+.tem-interesse
+{
+    font-size: 23px;
+    color: #97587d;
+    padding-bottom: 5px;
+    font-family: 'Heebo', sans-serif;
+    
+}
+
+.converse-direto
+{
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
+}
+
+.converse-direto:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.quer-melhorar
+{
+    font-size: 23px;
+    width: 190px;
+    text-align: center;
+    color: #a580a9;
+    padding-bottom: 5px;
+    padding-bottom: 10px;
+    font-family: 'Heebo', sans-serif;
+}
+
+.vamos-trabalhar
+{
+    font-size: 28px;
+    text-align: center;
+    color: #210124;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-family: 'Heebo', sans-serif;
+}
+
+.vamos-trabalhar:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.wpp
+{
+    width: 50px; 
+    padding-top: 10px;
+}
+
+
+
+@media screen and (max-width: 679px)
+{
+
+    .conteudo-cabecalho
+    {
+        flex-direction: column;
+        font-size: 17px;     
+    }
+
+    .imagem-logo
+    {
+        padding-bottom: 20px;
+    }
+
+    .seja-bem-vinda
+    {
+        font-size: 25px;
+    }
+
+    .seja-bem-vinda::after
+    {
+        margin-left: 32%;
+    }
+
+    .subtitulo
+    {
+        font-size: 13px;
+    }
+
+    .caixa2
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bloco-caixa2
+    {
+       
+        width: 100%;  
+        height: 430px;
+        flex-direction: column;
+    }
+
+    .imagem-mulher
+    {
+        display: none;
+    }
+
+    .seta
+    {
+        position: absolute;
+        width: 230px;
+        left: 18vw;
+        z-index: 1      
+    }
+
+    .esconderaparece
+    {
+        visibility: hidden; 
+        display: none; 
+        opacity: 0;  
+    }
+
+    .mousearea
+    {
+        display: none;  
+    }
+
+    .barra
+    {
+        position: relative;
+        width: 30px;
+        height: 186px;
+        right: 0px;
+        top: 20px;    
+    }
+
+    .animacaoida
+    {
+        transform: translate(380px,0px);
+        transition: 0.6s;     
+    }
+
+    .animacaovolta
+    {
+        transform: translate(0px,0px);
+        transition: 0.6s;
+    }
+
+    .aparece
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        z-index: 2;
+        position: relative;
+        bottom: 170px;
+        left: 19px;
+        width: 250px;
+        height: 173px;
+        background-color: #f9ddfb;
+        padding: 0px 0px;
+        border: 6px dashed #ddade0;
+    }
+
+    .texto-apresentacao
+    {
+        padding: 0px 16px;
+        font-size: 16px;
+        text-align: initial
+    }
+
+    .caixa-pontilhada
+    {     
+        display: none;        
+    }
+        
+    .texto-caixa-pontilhada
+    {
+        display: none;
+    }
+
+    .como-eu 
+    {
+        font-family: 'Heebo', sans-serif;
+        font-size: 25px;
+        font-weight: 500;
+        padding-bottom: 30px;
+        padding-top: 54px;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+    }
+
+    .caixa4
+    {
+        height: 120px;
+    }
+
+    .caixa5
+    {
+        height: 120px;
+    }
+
+    .video
+    {
+        margin: 0px 0px;
+        width: 100%;
+    }
+
+    .tem-interesse
+    {
+        font-size: 17px;       
+    }
+
+    .converse-direto
+    {
+        font-size: 24px;
+    }
+
+    .quer-melhorar
+    {
+        font-size: 17px;      
+    }
+
+    .vamos-trabalhar
+    {
+        font-size: 24px;      
+    }
+
+    .wpp
+    {
+        width: 26px;
+    }
+
+    .caixarodape
+    {
+        padding: 0px;
+        margin: 0px 5px;      
+    }
+
+    .lista-rodape
+    { 
+        align-self: center;
+        justify-self: center;         
+    }
+
+}
+
+@media screen and (min-width: 500px) and (max-width:771px)  
+{
+    .video
+    {
+        width: 100%;
+    }
+
+    .mousearea
+    {
+        display: none;  
+    }
+
+    .caixa-pontilhada
+    {
+        padding: 75px 49px;
+    }
+    
+    .caixa-pontilhada
+    {     
+        display: none;        
+    }
+
+        
+    .texto-caixa-pontilhada
+    {
+        display: none;
+    }
+
+    .aparece
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;      
+        z-index: 2;
+        position: relative;
+        bottom: 170px;
+        left: 19px;
+        width: 250px;
+        height: 173px;
+        background-color: #f9ddfb;
+        padding: 0px 0px;
+        border: 6px dashed #ddade0;
+    }
+
+    .texto-apresentacao
+    {
+        text-align: start;
+        font-size: 15px;
+        padding: 0px 15px;
+    }
+}
+
+@media screen and (min-width: 771px)
+{
+    .video
+    {
+        width: 80%;
+    }
+    
+    
+}
+
+@media screen and (min-width: 1000px)
+{
+    .video
+    {    
+        width: 900px;
+    }   
+}

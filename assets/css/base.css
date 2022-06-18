@@ -1,0 +1,184 @@
+/* RODAPÉ E CABEÇALHO */
+
+body
+{
+    background: url("fundo-total.png");
+}
+
+.cabecalho
+{     
+    background: url('fundo-total.png')
+}
+
+.conteudo-cabecalho
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;   
+    padding: 16px 0px;   
+}
+
+.imagem-logo
+{
+    width: 150px; 
+}
+
+.navegacao-cabecalho
+{
+    width: 300px;
+}
+
+.navegacao-cabecalho li
+{
+    display: inline;
+    padding-left: 25px;
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.firulainicio::after
+{   
+    content: '';
+    width: 30px;
+    height: 2px;
+    margin-top: 3px;
+    margin-left: 36px;
+    background-color: white;
+    display: block;
+    position: absolute;  
+}
+
+.firulacontato::after
+{   
+    content: '';
+    width: 30px;
+    height: 2px;
+    margin-top: 3px;
+    margin-left: 128px;
+    background-color: white;
+    display: block;
+    position: absolute;
+    
+}
+
+.firulaproduto::after
+{   
+    content: '';
+    width: 30px;
+    height: 2px;
+    margin-top: 3px;
+    margin-left: 228px;
+    background-color: white;
+    display: block;
+    position: absolute;
+}
+
+.inicio:hover
+{
+    font-size: 18px; 
+}
+
+.contato:hover
+{
+    font-size: 18px;  
+}
+
+.produto:hover
+{
+    font-size: 18px; 
+}
+
+.rodape
+{   
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: inset 0px 4px 8px rgb(0, 0, 0, 0.5);  
+}
+
+
+.lista-rodape li
+{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    align-self: center;
+    justify-self: center;
+}
+
+.caixarodape
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista-rodape
+{ 
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 400px;
+
+}
+
+.wpp-logo, .insta-logo, .face-logo, .email-logo
+{
+    width: 100%;  
+}
+
+.caixarodape
+{
+    margin: 0px 200px;  
+}
+
+.logo-rodape
+{   
+    width: 140px;
+    margin-bottom: 10px;  
+    margin-top: 10px; 
+    grid-column: 2 / span 2;
+    align-self: center;
+    justify-self: center;    
+}
+
+@media screen and (max-width: 679px)
+{
+    .conteudo-cabecalho
+    {
+        flex-direction: column;
+        font-size: 17px;     
+    }
+
+    .imagem-logo
+    {
+        padding-bottom: 20px;
+    }
+
+    
+    .caixarodape
+    {
+        padding: 0px;
+        margin: 0px 5px;
+    }
+
+    .lista-rodape
+    { 
+        align-self: center;
+        justify-self: center;    
+    }
+
+    .lista-rodape li
+    {
+        width: 20px;
+    }
+
+    .wpp-logo, .insta-logo, .face-logo, .email-logo
+    {
+        width: 100%;
+    }
+
+
+
+}
