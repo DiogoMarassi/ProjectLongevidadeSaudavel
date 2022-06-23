@@ -2,12 +2,12 @@
 
 body
 {
-    background: url("fundo-total.png");
+    background: url("bg novo resto.png");
 }
 
 .cabecalho
 {     
-    background: url('fundo-total.png')
+    background: url('bg novo inicio.png')
 }
 
 .conteudo-cabecalho
@@ -94,7 +94,8 @@ body
 {   
     padding-top: 25px;
     padding-bottom: 25px;
-    box-shadow: inset 0px 4px 8px rgb(0, 0, 0, 0.5);  
+    box-shadow: inset 0px 4px 8px rgb(0, 0, 0, 0.5);
+    background: url('bg novo rodape.png');
 }
 
 
@@ -112,6 +113,7 @@ body
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0px 200px;  
 }
 
 .lista-rodape
@@ -128,10 +130,6 @@ body
     width: 100%;  
 }
 
-.caixarodape
-{
-    margin: 0px 200px;  
-}
 
 .logo-rodape
 {   
