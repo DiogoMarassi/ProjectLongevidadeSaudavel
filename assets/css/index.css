@@ -13,7 +13,7 @@
 {
     font-family: 'Heebo', sans-serif;
     font-size: 30px;
-    font-weight: 500;
+    font-weight: 800;
     padding-bottom: 5px;
     text-transform: uppercase;
     color: white;
@@ -46,7 +46,7 @@
     display: inline-block;
     font-family: 'Heebo', sans-serif;
     color: white;
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     padding: 8px 16px;
     text-align: center;
     width: 120px;
@@ -288,6 +288,13 @@
     
 }
 
+.tem-interesse:hover
+{
+    color: white;
+    transition: 1s;
+    cursor: default;
+}
+
 .converse-direto
 {
     font-size: 28px;
@@ -302,6 +309,7 @@
 {
     text-decoration: underline;
     cursor: pointer;
+    
 }
 
 .quer-melhorar
@@ -313,6 +321,13 @@
     padding-bottom: 5px;
     padding-bottom: 10px;
     font-family: 'Heebo', sans-serif;
+}
+
+.quer-melhorar:hover
+{
+    color: #210124;
+    transition: 1s;
+    cursor: default;
 }
 
 .vamos-trabalhar
